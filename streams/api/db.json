@@ -1,33 +1,21 @@
 {
   "streams": [
     {
-      "title": "My Stream",
-      "description": "This is a great stream - editing the description! working with patch. ",
-      "userId": "118132621624377366872",
-      "id": 1
-    },
-    {
       "title": "Another Awesome Stream",
       "description": "Here is the description of my next awesome stream!",
       "id": 2
     },
     {
-      "title": "Testing User ID",
-      "description": "I want to make sure my ID shows up here! ",
+      "title": "Awesome Stream 1",
+      "description": "This is my awesome stream! ",
       "userId": "118132621624377366872",
       "id": 3
     },
     {
-      "title": "Another Stream",
-      "description": "Checking history.push",
+      "title": "This is another stream",
+      "description": "This is probably the best stream!",
       "userId": "118132621624377366872",
       "id": 4
-    },
-    {
-      "title": "Test the Refactor",
-      "description": "Did the refactor work on the submit? ",
-      "userId": "118132621624377366872",
-      "id": 5
     }
   ]
 }
