@@ -1,9 +1,15 @@
 import React from "react";
+import UserCreate from "./UserCreate";
+import LanguageSelector from "./LanguageSelector";
+import { LanguageStore } from "../contexts/LanguageContext";
 
 const App = () => {
   return (
-    <div>
-      <h1 className="ui container">My App</h1>
+    <div className="ui container">
+      <LanguageStore>
+        <LanguageSelector />
+        <UserCreate />
+      </LanguageStore>
     </div>
   );
 };
