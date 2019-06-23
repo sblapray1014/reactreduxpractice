@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+<<<<<<< HEAD
 import flv from "flv.js";
+=======
+>>>>>>> 94eda53d8040b211dfad3636970ab8c17deb53bc
 import { connect } from "react-redux";
 import { fetchStream } from "../../actions";
 
 class StreamShow extends Component {
+<<<<<<< HEAD
   constructor(props) {
     super(props);
 
@@ -32,6 +36,11 @@ class StreamShow extends Component {
     this.player.load();
   }
 
+=======
+  componentDidMount() {
+    this.props.fetchStream(this.props.match.params.id);
+  }
+>>>>>>> 94eda53d8040b211dfad3636970ab8c17deb53bc
   render() {
     if (!this.props.stream) {
       return <div>Loading...</div>;
@@ -39,7 +48,10 @@ class StreamShow extends Component {
     const { title, description } = this.props.stream;
     return (
       <div>
+<<<<<<< HEAD
         <video ref={this.videoRef} style={{ width: "100%" }} controls />
+=======
+>>>>>>> 94eda53d8040b211dfad3636970ab8c17deb53bc
         <h1>{title}</h1>
         <h5>{description}</h5>
       </div>
